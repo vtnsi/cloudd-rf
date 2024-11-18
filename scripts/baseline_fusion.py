@@ -70,7 +70,7 @@ torch.save(combined_labels, os.path.join(fusion_data_folder, "combined_labels.pt
 
 X_train, X_test, y_train, y_test = train_test_split(combined_features.numpy(), combined_labels.numpy(), test_size=0.2, random_state=42)
 
-model_fused = xgb.XGBClassifier(tree_method="hist")
+model_fused = xgb.XGBClassifier(tree_method="hist", n_estimators=30)
 model_fused.fit(X_train, y_train, eval_set=[(X_test, y_test)])
 
 preds = model_fused.predict(X_test)
