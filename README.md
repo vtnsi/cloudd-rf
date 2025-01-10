@@ -34,6 +34,8 @@ To install the codebase, we recommend using `pip`:
    
     `python plot_accuracy_vs_nuisance_params.py`
 
+## Running in Amazon SageMaker
+Please refer to the `sagemaker` branch (https://github.com/vtnsi/cloudd-rf/tree/sagemaker) to run in Amazon SageMaker.
 
 ## Contributors
 | Name | Role | Title | Email |
@@ -43,6 +45,7 @@ To install the codebase, we recommend using `pip`:
 | Alyse M. Jones | Developer | Research Associate, Spectrum Dominance Division, Virginia Tech National Security Institute | alysemjones@vt.edu |
 | Maymoonah Toubeh | Developer | Research Assistant Professor, Spectrum Dominance Division, Virginia Tech National Security Institute | may93@vt.edu |
 | William 'Chris' Headley | Developer | Associate Director, Spectrum Dominance Division, Virginia Tech National Security Institute | cheadley@vt.edu |
+| Joseph Risi | Developer | AI/ML Specialist Solutions Architect, Amazon Web Services | jrisi@amazon.com |
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
