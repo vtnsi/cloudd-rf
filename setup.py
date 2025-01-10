@@ -1,0 +1,30 @@
+from setuptools import setup
+
+setup(name='cloudd_rf',
+        version='0.1',
+        description='Codebase for the CLOUD-D RF Project.',
+        url='',
+        author='VT NSI',
+        author_email='cheadley@vt.edu',
+        license='',
+        packages=['code'],
+        install_requires=[
+            'numpy==1.26.3',
+            'matplotlib==3.9.0',
+            'pandas==2.2.2',
+            'setuptools==69.2.0',
+            'scipy==1.13.0',
+            'torch',
+            'seaborn==0.13.2',
+            'torchvision',
+            'scikit-learn==1.5.0',
+            'xgboost==2.1.1',
+            'gymnasium==0.29.1',
+            'stable-baselines3',
+            'stable-baselines3[extra]',
+            'tqdm',
+            'rich==13.7.1',
+            'torchinfo',
+            'plotly==5.13.1'
+        ],
+        zip_safe=False)

@@ -1,0 +1,24 @@
+# Install/Build Files
+/build
+/s3:
+/*venv
+*.egg*
+*.env*
+*__pycache__*
+*.swp
+*.ipynb_checkpoints
+
+# Output Files
+*.png
+*.dat
+*.csv
+*.tar
+cloudd_rf.egg_info
+data/dataset
+data/fusion_data
+data/summer_models
+data/tutorial_data
+tutorials/src
+
+# Model Files
+*.pt
